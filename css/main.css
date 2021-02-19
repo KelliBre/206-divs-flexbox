@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #F7FFF7;
+  background-color: #f9fbfb;
   height: 100%;
 }
 
@@ -107,15 +107,31 @@ body {
   font-size: 1.25em;
   height: 100%;
 }
+
 body h2{
-    font-family: 'Lora', serif;
+    font-family: 'Libre Baskerville', serif;
+    margin:0;
+}
+
+body p{
+    font-weight: 200;
 }
 header{
-    background: #09686D;
-    color: #fff;
-    font-family: 'Lora', serif;
+    background: #f9fbfb;
+    color: #3a4a4d;
+    font-family: 'Libre Baskerville', serif;
     height: 100px;
     margin-bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: .5em;
+}
+footer{
+    background: #f9fbfb;
+    color: #3a4a4d;
+    font-family: 'Libre Baskerville', serif;
+    height: 100px;
+    margin-top: 1em;
     text-align: center;
     text-transform: uppercase;
     padding-top: .5em;
@@ -130,20 +146,28 @@ header{
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  box-shadow: 5px 5px 15px 5px rgba(58,74,77,0.24);
+  color: #3a4a4d;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   line-height: 1.2em;
   font-size: 1em;
-  background-color: #f16059;
+  background-color: #f9fbfb;
   height: 350px;
   padding:.5em;
   width: 30%;
   
 }
+a{
+    text-decoration: none;
+    font-size: 2em;
+}
 
+a:visited{
+    color: #3a4a4d;
+}
 
 
 
