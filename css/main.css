@@ -109,6 +109,7 @@ body {
 }
 
 body h2{
+    color: #568181;
     font-family: 'Libre Baskerville', serif;
     margin:0;
 }
@@ -116,8 +117,14 @@ body h2{
 body p{
     font-weight: 200;
 }
+header, footer, main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 header{
     background: #f9fbfb;
+    border-bottom: #B9D0D0 double 5px;
     color: #3a4a4d;
     font-family: 'Libre Baskerville', serif;
     height: 100px;
@@ -126,21 +133,19 @@ header{
     text-transform: uppercase;
     padding-top: .5em;
 }
-footer{
+main{
     background: #f9fbfb;
     color: #3a4a4d;
-    font-family: 'Libre Baskerville', serif;
-    height: 100px;
-    margin-top: 1em;
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: .5em;
+    height: 150px;
+    padding: .5em;
+    width: 100%;
 }
   
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: space-between;
+  flex-wrap: row wrap;
   font-weight: 700;
 }
 
@@ -160,13 +165,25 @@ footer{
   width: 30%;
   
 }
+
+footer{
+    background: #f9fbfb;
+    color: #568181;
+    font-family: 'Libre Baskerville', serif;
+    height: 100px;
+    margin-top: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
 a{
     text-decoration: none;
     font-size: 2em;
 }
 
 a:visited{
-    color: #3a4a4d;
+    color: #2B4040;
 }
 
 
